@@ -1,1 +1,31 @@
 @import 'scss/all-utilities';
+
+.create-button {
+  border-radius: 32px;
+  font-size: 17px;
+  color: black;
+  background-color: #78F1C0;
+  border: none;
+  width: 90%;
+  margin: 1% 5% 1% 5%;
+  padding: 1%;
+
+  &:hover {
+    color: white;
+  }
+
+  &:focus {
+    background-color: yellow;
+    color: black !important;
+  }
+
+  &[duong$="test"] {
+    background-color: red;
+  }
+}
+
+.create-input {
+  width: 90%;
+  margin-left: 5%;
+}
+

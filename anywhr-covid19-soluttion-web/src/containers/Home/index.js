@@ -90,6 +90,7 @@ class Home extends Component {
                     <form onSubmit={this.onCreateHexagon}>
                       <div className="mb-3">
                         <Input
+                          className="create-input"
                           placeholder="Enter hexagon name"
                           size="large"
                           name={"name"}
@@ -99,6 +100,7 @@ class Home extends Component {
                       </div>
                       <div className="mb-3">
                         <Input
+                          className="create-input"
                           placeholder="Enter neighbor name"
                           size="large"
                           name={"neighborName"}
@@ -108,6 +110,7 @@ class Home extends Component {
                       </div>
                       <div className="mb-3">
                         <Input
+                          className="create-input"
                           placeholder="Enter border position (0-5)"
                           size="large"
                           name={"border"}
@@ -119,6 +122,7 @@ class Home extends Component {
                       <div className="row">
                         <div className="col-12">
                           <Button
+                            className="create-button"
                             htmlType={"submit"}
                             type={"primary"}
                             block

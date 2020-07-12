@@ -1,6 +1,7 @@
 package co.anywhr.service;
 
 import co.anywhr.dto.HexagonDTO;
+import co.anywhr.dto.HexagonUI;
 import co.anywhr.dto.NewHexagonParams;
 
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
  */
 public interface HexagonService {
 
-    List<HexagonDTO> findAll();
+    List<HexagonUI> findAll();
 
     HexagonDTO findByName(String name);
 

@@ -1,6 +1,7 @@
 package co.anywhr.service.impl;
 
 import co.anywhr.dto.HexagonDTO;
+import co.anywhr.dto.HexagonUI;
 import co.anywhr.dto.NewHexagonParams;
 import co.anywhr.entity.Hexagon;
 import co.anywhr.exception.ResourceNotFoundException;
@@ -36,8 +37,8 @@ public class HexagonServiceImpl implements HexagonService {
     final HexagonRule rule;
 
     @Override
-    public List<HexagonDTO> findAll() {
-        return repository.findAll().stream().map(mapper::map).collect(Collectors.toList());
+    public List<HexagonUI> findAll() {
+        return repository.findAll().stream().map(mapper::mapForUI).collect(Collectors.toList());
     }
 
     @Override

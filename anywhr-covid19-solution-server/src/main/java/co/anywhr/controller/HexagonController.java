@@ -1,6 +1,7 @@
 package co.anywhr.controller;
 
 import co.anywhr.dto.HexagonDTO;
+import co.anywhr.dto.HexagonUI;
 import co.anywhr.dto.NewHexagonParams;
 import co.anywhr.service.HexagonService;
 import lombok.AllArgsConstructor;
@@ -21,8 +22,8 @@ public class HexagonController {
 
     final HexagonService service;
 
-    @GetMapping("")
-    public List<HexagonDTO> allHexagons() {
+    @GetMapping()
+    public List<HexagonUI> allHexagons() {
         return service.findAll();
     }
 

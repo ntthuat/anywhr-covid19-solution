@@ -14,3 +14,14 @@ anywhr-covid19-solution-server/.idea
 anywhr-covid19-solution-server/.gradle/
 anywhr-covid19-solution-server/.idea/
 anywhr-covid19-solution-server/build/
+
+anywhr-covid19-solution-web/node_modules
+
+anywhr-covid19-solution-web/.pnp
+anywhr-covid19-solution-web/.pnp.js
+
+# production
+anywhr-covid19-solution-web/build
+
+# CSS
+anywhr-covid19-solution-web/src/**/*.css

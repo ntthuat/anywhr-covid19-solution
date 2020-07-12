@@ -1,0 +1,3 @@
+// Hexagons
+export const FETCH_HEXAGONS = 'FETCH_HEXAGONS';
+export const FETCH_HEXAGONS_STATUS = 'FETCH_HEXAGONS_STATUS';

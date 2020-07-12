@@ -14,3 +14,12 @@ Please check tab `hexagon-controller`
 
 ##UI:
 http://localhost:3000/
+
+## Unit test (I don't have enough time to do this):
+- Will use Junit for Java Spring Boot and JEST for ReactJS
+
+## CICD:
+- Use travis for github
+
+## Deploy:
+_ Use K8s

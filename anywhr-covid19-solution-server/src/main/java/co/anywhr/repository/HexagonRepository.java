@@ -4,6 +4,7 @@ import co.anywhr.entity.Hexagon;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -11,6 +12,8 @@ import java.util.Optional;
  */
 @Repository
 public interface HexagonRepository extends RepositoryExtensions<Hexagon, Long>, JpaSpecificationExecutor<Hexagon> {
+
+    List<Hexagon> findAll();
 
     Optional<Hexagon> findByName(String name);
 

@@ -14,9 +14,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.stream.Collectors;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 
@@ -32,6 +34,11 @@ public class HexagonServiceImpl implements HexagonService {
     final HexagonMapper mapper;
 
     final HexagonRule rule;
+
+    @Override
+    public List<HexagonDTO> findAll() {
+        return repository.findAll().stream().map(mapper::map).collect(Collectors.toList());
+    }
 
     @Override
     public HexagonDTO findByName(String name) {

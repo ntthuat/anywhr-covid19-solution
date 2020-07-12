@@ -10,6 +10,7 @@
 
 ## Swagger:
 http://localhost:8080/swagger-ui.html
+Please check tab `hexagon-controller`
 
 ##UI:
 http://localhost:3000/

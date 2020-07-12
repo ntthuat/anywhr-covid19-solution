@@ -1,0 +1,16 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+anywhr-covid19-solution-server/.idea
+anywhr-covid19-solution-server/.gradle/
+anywhr-covid19-solution-server/.idea/
+anywhr-covid19-solution-server/build/

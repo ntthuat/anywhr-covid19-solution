@@ -1,0 +1,10 @@
+logging.level:
+  org.hibernate.SQL: DEBUG
+  org.springframework.web: DEBUG
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/anywhr_covid19_solution_db
+    username: postgres
+    password: postgres
+    jpa.show-sql: true

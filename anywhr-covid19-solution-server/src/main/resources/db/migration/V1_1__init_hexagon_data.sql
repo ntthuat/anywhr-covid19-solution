@@ -1,0 +1,4 @@
+INSERT INTO public.hexagon (name, coordinate_x, coordinate_y, created_by, created_date, updated_by, updated_date) VALUES('ax', 2, 2, 'admin', current_timestamp, 'admin', current_timestamp);
+INSERT INTO public.hexagon (name, coordinate_x, coordinate_y, created_by, created_date, updated_by, updated_date) VALUES('bx', 3, 1, 'admin', current_timestamp, 'admin', current_timestamp);
+INSERT INTO public.hexagon (name, coordinate_x, coordinate_y, created_by, created_date, updated_by, updated_date) VALUES('dx', 4, 2, 'admin', current_timestamp, 'admin', current_timestamp);
+INSERT INTO public.hexagon (name, coordinate_x, coordinate_y, created_by, created_date, updated_by, updated_date) VALUES('ex', 4, 3, 'admin', current_timestamp, 'admin', current_timestamp);

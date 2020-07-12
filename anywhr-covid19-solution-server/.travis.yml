@@ -1,0 +1,15 @@
+language: java
+
+jdk:
+  - openjdk8
+
+notifications:
+  email:
+    - nguyenthienthuat92@gmail.com
+
+cache:
+  - gradle
+  - gradlewrapper
+
+script:
+  - ./gradlew build
